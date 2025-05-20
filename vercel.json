@@ -12,18 +12,20 @@
   ],
   "routes": [
     {
+      "src": "/bare/(.*)",
+      "dest": "/index.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
       "src": "/sw.js",
       "dest": "/public/sw.js",
       "headers": {
         "Cache-Control": "no-cache",
         "Service-Worker-Allowed": "/"
-      }
-    },
-    {
-      "src": "/register-sw.js",
-      "dest": "/public/js/register-sw.js",
-      "headers": {
-        "Cache-Control": "no-cache"
       }
     },
     {
@@ -53,10 +55,6 @@
     {
       "src": "^/$",
       "dest": "/public/html/index.html"
-    },
-    {
-      "src": "/bare/(.*)",
-      "dest": "/index.js"
     },
     {
       "handle": "filesystem"
