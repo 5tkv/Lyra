@@ -1,0 +1,7 @@
+||| g:/Lyra/Lyra/netlify.toml |||
+[build]
+  base = "/"
+  command = "pnpm install && pnpm start"
+  publish = "public"
+[build.environment]
+  NODE_VERSION = "22.x"
