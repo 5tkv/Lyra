@@ -1,15 +1,13 @@
 <div align=center>
-zkjcvb
-<img src="https://github.com/ihatedecember/blob/main/public/media/LLBIG.svg" height="250px">
 <h4 align="center">Lyra is the ultimate proxy with added games and features.</h4>
 </div>
 
-![Lyra image](https://i.imgur.com/j3QKeVE.png)
+
 
 > [!IMPORTANT]
 > If you fork Lyra, please give it a star.
 
-Join our [Discord Server](https://dsc.gg/parcoil) for links and more!
+
 
 ## Features
 
@@ -44,8 +42,8 @@ Join our [Discord Server](https://dsc.gg/parcoil) for links and more!
 To get started you need to clone the repo
 
 ```bash
-git clone https://github.com/ihatedecember
-cd Lyra.org
+git clone https://github.com/ihatedecember/Lyra
+cd Lyra
 ```
 
 Next you need to enable pnpm
@@ -66,14 +64,8 @@ Now start Lyra
 pnpm start
 ```
 
-#### Updating Lyra
-
-```bash
-cd Lyra.org
-git pull --force
-```
 
 ## Issues
 
 > [!NOTE]
-> If you encounter issues, create an [issue on GitHub](https://github.com/ihatedecember/issues/new) or join the [Discord Server](https://dsc.gg/parcoil).
+> If you encounter issues, create an [issue on GitHub](https://github.com/ihatedecember/issues/new) 
