@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "foundintokyo"
-          entrypoint: "html/index.html"
+          entrypoint: "public/html/index.html"
           root: "/"
           
           
