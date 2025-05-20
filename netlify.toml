@@ -4,4 +4,4 @@
   command = "pnpm install && pnpm start"
   publish = "public"
 [build.environment]
-  NODE_VERSION = "22.x"
+  NODE_VERSION = "22"
