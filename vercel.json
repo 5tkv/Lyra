@@ -4,15 +4,43 @@
     {
       "src": "index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "handle": "filesystem"
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/public/js/$1"
+    },
+    {
+      "src": "/html/(.*)",
+      "dest": "/public/html/$1"
+    },
+    {
+      "src": "/media/(.*)",
+      "dest": "/public/media/$1"
+    },
+    {
+      "src": "/json/(.*)",
+      "dest": "/public/json/$1"
+    },
+    {
+      "src": "/uv/(.*)",
+      "dest": "/public/uv/$1"
     },
     {
       "src": "^/$",
-      "dest": "/html/index.html"
+      "dest": "/public/html/index.html"
+    },
+    {
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
