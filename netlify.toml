@@ -1,4 +1,4 @@
-||| g:/Lyra/Lyra/netlify.toml |||
+
 [build]
   base = "/"
   command = "pnpm install && pnpm start"
