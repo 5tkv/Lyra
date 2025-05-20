@@ -38,8 +38,27 @@
       }
     },
     {
-      "src": "/uv/(.*)",
-      "dest": "/public/uv/$1"
+      "src": "/register-sw.js",
+      "dest": "/public/js/register-sw.js",
+      "headers": {
+        "Cache-Control": "no-cache"
+      }
+    },
+    {
+      "src": "/uv/uv.config.js",
+      "dest": "/public/uv/uv.config.js"
+    },
+    {
+      "src": "/uv/uv.bundle.js",
+      "dest": "/public/uv/uv.bundle.js"
+    },
+    {
+      "src": "/uv/uv.handler.js",
+      "dest": "/public/uv/uv.handler.js"
+    },
+    {
+      "src": "/uv/uv.sw.js",
+      "dest": "/public/uv/uv.sw.js"
     },
     {
       "src": "/css/(.*)",
@@ -60,6 +79,10 @@
     {
       "src": "/json/(.*)",
       "dest": "/public/json/$1"
+    },
+    {
+      "src": "/uv/(.*)",
+      "dest": "/public/uv/$1"
     },
     {
       "src": "^/$",
