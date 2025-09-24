@@ -85,8 +85,8 @@ document.getElementById("search-input").addEventListener("input", (event) => {
 
 const notifications = [
 'Follow me on github!',
-'Have a Issue? contact: @ihatedecember',
-'@ihatedecember',
+'Have a Issue? contact: @5tkv',
+'@5tkv',
 'Better than lebronhelper'
 	
 ];

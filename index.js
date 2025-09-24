@@ -97,7 +97,7 @@ server.on("listening", () => {
 		chalk.green(`🚀 Lyra V6 Listening on http://localhost:${address.port}`),
 	);
 	console.log();
-	console.log(chalk.magenta(`🌙 Made by @ihatedecember`));
+	console.log(chalk.magenta(`🌙 Made by @5tkv`));
 	console.log();
 	console.log(chalk.white(`⭐ Inspo from Lunaar!`));
 });

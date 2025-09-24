@@ -28,9 +28,9 @@
 
 ### You can click the button below to quickly deploy to a platform.
 
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/ihatedecember)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/5tkv)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Parcoil/Lyra.org&branch=main&name=Lyra)
-[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repositoryurl=https://github.com/ihatedecember)
+[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repositoryurl=https://github.com/5tkv)
 <a target="_blank" href="https://glitch.com/edit/#!/import/github/parcoil/Lyra.org"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg"></a>
 
 ### Local / Server Deployment
@@ -42,7 +42,7 @@
 To get started you need to clone the repo
 
 ```bash
-git clone https://github.com/ihatedecember/Lyra
+git clone https://github.com/5tkv/Lyra
 cd Lyra
 ```
 
@@ -68,4 +68,4 @@ pnpm start
 ## Issues
 
 > [!NOTE]
-> If you encounter issues, create an [issue on GitHub](https://github.com/ihatedecember/issues/new) 
+> If you encounter issues, create an [issue on GitHub](https://github.com/5tkv/issues/new) 
