@@ -1,4 +1,4 @@
-fetch("/json/apps.json")
+fetch("/json/science.json")
 	.then((response) => response.json())
 	.then((apps) => {
 		function renderApps(filteredApps) {

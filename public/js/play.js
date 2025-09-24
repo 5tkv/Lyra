@@ -19,7 +19,7 @@ buttonReload.addEventListener("click", () => {
 iframe.src = `/cdn/${gameUrl}/index.html`;
 
 document.addEventListener("DOMContentLoaded", () => {
-	fetch("/json/games.json")
+	fetch("/json/maths.json")
 		.then((response) => response.json())
 		.then((games) => {
 			const game = games.find((g) => g.url === gameUrl);
