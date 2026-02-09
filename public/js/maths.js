@@ -23,7 +23,7 @@ function displayGames(games) {
 		const gameDiv = document.createElement("div");
 		gameDiv.className = "game fade-in";
 		const gameImage = game.proxy
-			? `/media/games/${game.image}`
+			? `/media/science/${game.image}`
 			: `/cdn/${game.url}/${game.image}`;
 
 		gameDiv.innerHTML = `
